@@ -1,0 +1,18 @@
+{
+  "name": "the-fox-api",
+  "version": "1.0.0",
+  "description": "A RESTful API that generates pictures of foxes :)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Ryan Stewart",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "images-scraper": "^6.4.2"
+  }
+}
