@@ -5,7 +5,7 @@ const Scraper = require("images-scraper");
 
 
 const NUM_IMAGES = 200;
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT;
 const google = new Scraper({
     puppeteer: {
         headless: true,
